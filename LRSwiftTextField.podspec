@@ -3,14 +3,14 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "LRSwiftTextField"
-  spec.version      = "1.0"
+  spec.version      = "1.0.1"
   spec.summary      = "A CocoaPods library for Custom TextField written in Swift."
 
 spec.description  = <<-DESC
 This CocoaPods library helps you customise the TextField in Xib with live rendering.
                    DESC
 
-  spec.homepage     = "http://github.com/DeepthiJonna/LRSwiftTextField.git"
+  spec.homepage     = "http://github.com/DeepthiJonna/LRSwiftTextField"
 
 
 
