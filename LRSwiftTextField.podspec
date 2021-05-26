@@ -24,3 +24,4 @@ This CocoaPods library helps you customise the TextField in Xib with live render
   spec.source        = { :git => "https://github.com/DeepthiJonna/LRSwiftTextField.git", :tag => "#{spec.version}" }
   spec.source_files  = "LRSwiftTextField/**/*.{swift}"
 
+end
