@@ -10,7 +10,7 @@ spec.description  = <<-DESC
 This CocoaPods library helps you customise the TextField in Xib with live rendering.
                    DESC
 
-  spec.homepage     = "http://github.com/DeepthiJonna/LRSwiftTextField"
+  spec.homepage     = "http://github.com/DeepthiJonna/LRSwiftTextField.git"
 
 
 
@@ -19,12 +19,8 @@ This CocoaPods library helps you customise the TextField in Xib with live render
   spec.author             = { "DeepthiJonna" => "deepthi.jonna@gmail.com" }
 
   spec.ios.deployment_target = "11.0"
-  spec.swift_version = "4.2"
+  spec.swift_version = "5"
 
   spec.source        = { :git => "https://github.com/DeepthiJonna/LRSwiftTextField.git", :tag => "#{spec.version}" }
   spec.source_files  = "LRSwiftTextField/**/*.{swift}"
 
-
-
-
-end
