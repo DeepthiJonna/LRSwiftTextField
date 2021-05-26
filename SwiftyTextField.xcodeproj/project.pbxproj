@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		296F2CB0265E05B8006AD88C /* SwiftyTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 296F2CAE265E05B8006AD88C /* SwiftyTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		296F2CBA265E05C5006AD88C /* SwiftyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296F2CB7265E05C5006AD88C /* SwiftyTextField.swift */; };
+		296F2CBB265E05C5006AD88C /* ValueType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296F2CB8265E05C5006AD88C /* ValueType.swift */; };
+		296F2CBC265E05C5006AD88C /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296F2CB9265E05C5006AD88C /* BaseTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		296F2CAB265E05B8006AD88C /* SwiftyTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		296F2CAE265E05B8006AD88C /* SwiftyTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyTextField.h; sourceTree = "<group>"; };
 		296F2CAF265E05B8006AD88C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		296F2CB7265E05C5006AD88C /* SwiftyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyTextField.swift; sourceTree = "<group>"; };
+		296F2CB8265E05C5006AD88C /* ValueType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueType.swift; sourceTree = "<group>"; };
+		296F2CB9265E05C5006AD88C /* BaseTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,9 @@
 			isa = PBXGroup;
 			children = (
 				296F2CAE265E05B8006AD88C /* SwiftyTextField.h */,
+				296F2CB9265E05C5006AD88C /* BaseTextField.swift */,
+				296F2CB7265E05C5006AD88C /* SwiftyTextField.swift */,
+				296F2CB8265E05C5006AD88C /* ValueType.swift */,
 				296F2CAF265E05B8006AD88C /* Info.plist */,
 			);
 			path = SwiftyTextField;
@@ -94,6 +103,7 @@
 				TargetAttributes = {
 					296F2CAA265E05B8006AD88C = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -130,6 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				296F2CBC265E05C5006AD88C /* BaseTextField.swift in Sources */,
+				296F2CBA265E05C5006AD88C /* SwiftyTextField.swift in Sources */,
+				296F2CBB265E05C5006AD88C /* ValueType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +274,7 @@
 		296F2CB4265E05B8006AD88C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -276,6 +290,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Deepthi.SwiftyTextField;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +299,7 @@
 		296F2CB5265E05B8006AD88C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
